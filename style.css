@@ -1,0 +1,389 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    font-size: 62.5%;
+  }
+  body {
+    position: relative;
+    font-family: "Goldman"
+  }
+  
+  header {
+    margin-top: 12vh;
+  }  
+  
+  nav {
+    display: flex;
+    width: 100%;
+    padding: 2rem;
+    min-height: 10vh;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    background: green;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+  }
+  nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+  }
+  nav li {
+    font-size: 2.5rem;
+    padding: 0 4rem 0 4rem;
+  }
+  nav a {
+    color:white;
+    text-decoration: none;
+  }
+
+  .menu{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+  .menu li{
+    position: relative;
+    padding: 15px 20px;
+    color: white;
+  }
+  .dropdown{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #e9e9e9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  .menu li:hover .dropdown{
+    display: block;
+  }
+  .dropdown li{
+    padding: 10px 15px;
+    color: black;
+  }
+  .dropdown li:hover{
+    background-color: green;
+  }
+  .text{
+    color: black;
+  }
+
+  .main-container{
+    min-height: 85vh;
+  }
+
+  .index{
+    background-image: url("img/schiedamseweg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+ .start{
+      position: absolute;
+      left:46%;
+      color:black;
+      text-align: center;
+      font-weight: bolder;
+      font-size:xx-large;
+  }
+
+.voorstellen{
+  h1{
+    text-align: right;
+    padding-right: 50vh;
+    font-weight: bolder;
+    font-size: xxx-large;
+  }
+  h2{
+    text-align:left;
+    right: 0;
+    width: 50%;
+    font-weight: bolder;
+    font-size: xx-large;
+    padding-top: 30px;
+    padding-left: 100px;
+  }
+  .para{
+    position: absolute;
+    right: 0;
+    width: 50%;
+    text-align: left;
+    padding-top: 20px;
+    font-size: x-large;
+    margin-top: 15px;
+    padding-right: 150px;
+    padding-top: 30px;
+  }
+  .para1{
+    right: 0;
+    width: 50%;
+    text-align: left;
+    font-size: x-large;
+    margin-top: 15px;
+    padding-left: 50px;
+  }
+}
+
+#profielimg{
+  display: flex;
+  padding-left: 15%;
+}
+
+.locatiegids{
+  h1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: xxx-large;
+  }
+  h2{
+    text-align: left;
+    font-weight: bolder;
+    font-size: xx-large;
+    padding-left: 100px;
+  }
+  h3{
+    font-weight: bolder;
+    text-align:left;
+    right: 0;
+    width: 50%;
+    font-size: xx-large;
+    padding-left: 100px;
+    padding-top: 30px;
+  }
+  p{
+    text-align: left;
+    right: 0;
+    width: 50%;
+    float: left;
+    font-size: x-large;
+    margin-top: 15px;
+    padding-left: 100px;
+  } 
+}
+
+#locatiegidsimg{
+  float:right;
+  padding: 0;
+}
+
+.apps{
+  h1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: xxx-large;
+  }
+  .h2links{
+    position: absolute;
+    text-align: left;
+    font-weight: bolder;
+    font-size: xx-large;
+    padding-left: 100px;
+  }
+  .h2rechts{
+    position: absolute;
+    text-align:left;
+    right: 0;
+    width: 50%;
+    font-weight: bolder;
+    margin-bottom: 0;
+    font-size: xx-large;
+  }
+  .links{
+    text-align: left;
+    right: 0;
+    width: 50%;
+    float: left;
+    font-size: x-large;
+    list-style-type: none;
+    margin-top: 40px;
+    padding-left: 100px;
+  }
+  .rechts{
+    position: absolute;
+    right: 0;
+    width: 50%;
+    text-align: left;
+    padding-top: 20px;
+    font-size: x-large;
+    list-style-type: none;
+    margin-top: 15px;
+    padding-right: 150px;
+  }
+  .plinks{
+    text-align: left;
+    right: 0;
+    width: 45%;
+    text-align: left;
+    padding-top: 40px;
+    font-size: x-large;
+    margin-top: 15px;
+    padding-left: 100px;
+  }
+  .prechts{
+    position: absolute;
+    right: 0;
+    width: 50%;
+    text-align: left;
+    padding-top: 60px;
+    font-size: x-large;
+    margin-top: 15px;
+    padding-right: 150px;
+  }
+}
+#canvasimg{
+  align-items: left;
+}
+#eduarteimg{
+  position: absolute;
+  align-items: right;
+  padding-top: 150px;
+}
+
+.begeleidingsteam{
+  h1{
+  text-align: center;
+  font-weight: bolder;
+  font-size: xxx-large;
+}
+.boven{
+  text-align: center;
+  font-weight: bolder;
+  font-size: xx-large;
+}
+p{
+  text-align: left;
+  right: 0;
+  width: 50%;
+  float: left;
+  font-size: x-large;
+  margin-top: 15px;
+  padding-left: 50px;
+} 
+}
+
+#begeleidngsteamimg{
+  align-items: left;
+  padding: 20px;
+}
+.tablelisa{
+  font-size: large;
+  width: 50%;
+  padding-left: 50px;
+}
+
+
+.opleidingswijzer{
+  h1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: xxx-large;
+  }
+  p{
+    text-align: left;
+    right: 0;
+    width: 50%;
+    font-size: x-large;
+    margin-top: 15px;
+    padding-left: 50px;
+  } 
+  #link{
+    text-align: left;
+    list-style-type: none;
+    right: 0;
+    width: 50%;
+    font-size: x-large;
+    padding-left: 50px
+  }
+}
+
+#wijzerimg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto }
+  
+.beoordelinglisa{
+  h1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: xxx-large;
+  }
+  .form{
+    text-align: left;
+    right: 0;
+    width: 50%;
+    font-size: x-large;
+    margin-top: 15px;
+    padding-left: 20px;
+  } 
+  .videolisa{
+    padding: 60px;
+  }
+}
+
+
+footer{
+  color: white;
+  font-weight: bolder;
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  min-height: 10vh;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  background: green;
+  justify-content:center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 25px;
+}
+
+a{
+  font-size: 25px;
+}
+
+.software {
+  text-align: center;
+  font-size: 28px;
+}
+
+.software1 {
+  text-align: center;
+  font-size: 26px;
+}
+
+.software2 {
+  text-align: left;
+  font-size: 25px;
+}
+
+.software3 {
+  text-align: left;
+  font-size: 28px;
+}
+
+.software5 {
+  text-align: left;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.imglisa {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+
